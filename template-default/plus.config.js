@@ -1,11 +1,9 @@
 import {
-  attach,
+  customElement,
   extract,
   parse,
-  print,
   read,
-  sass,
-  uhtml,
+  style,
   validate,
 } from '@htmlplus/element/compiler';
 
@@ -14,8 +12,6 @@ export default [
   parse(),
   validate(),
   extract(),
-  sass(),
-  attach(),
-  uhtml(),
-  print(),
+  style(),
+  customElement(),
 ]
