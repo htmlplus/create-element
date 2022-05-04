@@ -5,7 +5,7 @@ import {
   read,
   style,
   validate,
-} from '@htmlplus/element/compiler';
+} from '@htmlplus/element/compiler/index.js';
 
 export default [
   read(),
