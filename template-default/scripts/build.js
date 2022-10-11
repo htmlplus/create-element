@@ -1,20 +1,17 @@
-import compiler from '@htmlplus/element/compiler';
+import { rollup as htmlplus } from '@htmlplus/element/bundler/index.js';
 import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
-import glob from 'glob';
 import { rollup } from 'rollup';
-import summary from 'rollup-plugin-summary';
-import { terser } from 'rollup-plugin-terser';
+import postcss from 'rollup-plugin-postcss';
 import typescript from 'rollup-plugin-typescript2';
-import plugins from '../plus.config.js';
 
-const { start, next, finish } = compiler(...plugins);
+import plugins from '../plus.config.js';
 
 /**
  * @type {import('rollup').RollupOptions}
  */
 const options = {
-  input: glob.sync('./src/**/*.tsx'),
+  input: './src/MyElement.tsx',
   output: [
     {
       format: 'esm',
@@ -22,21 +19,12 @@ const options = {
     },
   ],
   plugins: [
-    {
-      name: 'htmlplus',
-      async buildStart() {
-        await start();
-      },
-      async load(id) {
-        if (!id.endsWith('.tsx')) return;
-        const { isInvalid, script } = await next(id);
-        if (isInvalid) return;
-        return script;
-      },
-      async buildEnd() {
-        await finish();
-      },
-    },
+    postcss({
+      inject: false,
+      minimize: true,
+    }),
+
+    htmlplus(...plugins),
 
     resolve({
       browser: true,
@@ -44,15 +32,7 @@ const options = {
 
     commonjs(),
 
-    typescript(),
-
-    terser({
-      format: {
-        comments: false,
-      },
-    }),
-
-    summary(),
+    typescript({ useTsconfigDeclarationDir: true }),
   ],
 };
 

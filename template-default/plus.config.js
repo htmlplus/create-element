@@ -4,7 +4,7 @@ import {
   parse,
   read,
   style,
-  validate,
+  validate
 } from '@htmlplus/element/compiler/index.js';
 
 export default [
@@ -13,5 +13,5 @@ export default [
   validate(),
   extract(),
   style(),
-  customElement(),
-]
+  customElement()
+];
