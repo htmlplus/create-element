@@ -1,6 +1,6 @@
 {
   "name": "@htmlplus/create-element",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "license": "MIT",
   "author": "Masood Abdolian <m.abdolian@gmail.com>",
   "description": "Compiler of HTMLPlus",
