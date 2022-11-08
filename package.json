@@ -3,9 +3,13 @@
   "version": "0.2.0",
   "license": "MIT",
   "author": "Masood Abdolian <m.abdolian@gmail.com>",
-  "description": "Compiler of HTMLPlus",
-  "main": "index.js",
+  "description": "This package includes the global command for @htmlplus/element.",
   "type": "module",
+  "main": "index.js",
+  "types": "",
+  "scripts": {
+    "build": ""
+  },
   "bin": {
     "create-element": "index.js"
   },
@@ -13,6 +17,7 @@
     "index.js",
     "template-default"
   ],
+  "publishConfig": {},
   "engines": {
     "node": ">= 12.7.0"
   },
@@ -25,11 +30,8 @@
     "url": "https://github.com/htmlplus/create-element/issues"
   },
   "homepage": "https://github.com/htmlplus/create-element#readme",
-  "scripts": {
-    "build": ""
-  },
   "dependencies": {
     "enquirer": "^2.3.6",
-    "fs-extra": "^10.0.0"
+    "fs-extra": "^10.1.0"
   }
 }
