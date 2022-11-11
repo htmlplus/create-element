@@ -1,6 +1,6 @@
 {
   "name": "@htmlplus/create-element",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "license": "MIT",
   "author": "Masood Abdolian <m.abdolian@gmail.com>",
   "description": "This package includes the global command for @htmlplus/element.",
