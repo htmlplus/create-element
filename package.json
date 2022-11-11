@@ -8,6 +8,7 @@
   "main": "index.js",
   "types": "",
   "scripts": {
+    "build": "",
     "format": "prettier --write ."
   },
   "bin": {
