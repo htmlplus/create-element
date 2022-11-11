@@ -7,6 +7,9 @@ createServer({
   server: {
     open: true
   },
+  esbuild: {
+    target: 'ES2016'
+  },
   plugins: [htmlplus(...plugins)]
 })
   .then((server) => server.listen())

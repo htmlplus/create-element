@@ -15,25 +15,25 @@ const options = {
   output: [
     {
       format: 'esm',
-      dir: 'dist',
-    },
+      dir: 'dist'
+    }
   ],
   plugins: [
     postcss({
       inject: false,
-      minimize: true,
+      minimize: true
     }),
 
     htmlplus(...plugins),
 
     resolve({
-      browser: true,
+      browser: true
     }),
 
     commonjs(),
 
-    typescript({ useTsconfigDeclarationDir: true }),
-  ],
+    typescript({ useTsconfigDeclarationDir: true })
+  ]
 };
 
 (async () => {

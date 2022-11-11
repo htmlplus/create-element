@@ -1,8 +1,7 @@
 #!/usr/bin/env node
-
+import enquirer from 'enquirer';
 import fs from 'fs-extra';
 import path from 'path';
-import enquirer from 'enquirer';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -10,7 +9,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const cwd = process.cwd();
 
 (async () => {
-
   const prompt = enquirer.prompt;
 
   const model = await prompt([
@@ -21,7 +19,7 @@ const cwd = process.cwd();
       initial: 'htmlplus-project',
       format: (value) => value?.trim(),
       validate: (value) => !!value?.trim()
-    },
+    }
     // {
     //   name: 'manual',
     //   type: 'confirm',
@@ -31,7 +29,6 @@ const cwd = process.cwd();
   ]);
 
   if (model.manual) {
-
     const result = await prompt([
       {
         type: 'select',
@@ -41,12 +38,12 @@ const cwd = process.cwd();
         choices: [
           {
             name: 'css',
-            message: 'CSS',
+            message: 'CSS'
           },
           {
             name: 'scss',
-            message: 'SCSS',
-          },
+            message: 'SCSS'
+          }
         ]
       },
       {
@@ -57,7 +54,7 @@ const cwd = process.cwd();
         format: (value) => value?.trim(),
         validate: (value) => !!value?.trim()
       }
-    ])
+    ]);
 
     Object.assign(model, result);
   }
@@ -68,13 +65,7 @@ const cwd = process.cwd();
 
   await fs.copy(source, destination);
 
-  await fs.rename(
-    path.resolve(destination, '_gitignore'), 
-    path.resolve(destination, '.gitignore'),
-  );
+  await fs.rename(path.resolve(destination, '_gitignore'), path.resolve(destination, '.gitignore'));
 
-  await fs.rename(
-    path.resolve(destination, 'package_json'), 
-    path.resolve(destination, 'package.json'),
-  );
+  await fs.rename(path.resolve(destination, 'package_json'), path.resolve(destination, 'package.json'));
 })();
