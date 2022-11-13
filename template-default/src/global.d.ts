@@ -6,3 +6,5 @@ declare module 'react' {
     part?: string;
   }
 }
+
+export {};
