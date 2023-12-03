@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/htmlplus/create-element/compare/v1.0.0...v1.1.0) (2023-12-03)
+
+
+### Features
+
+* rename the `plus.config.js` to the `htmlplus.config.js` ([fec91cc](https://github.com/htmlplus/create-element/commit/fec91cc65451f9ac98a07974bbfd659332c5792e))
+
 # 1.0.0 (2023-12-03)
 
 
