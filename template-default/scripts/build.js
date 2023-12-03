@@ -5,7 +5,7 @@ import { rollup } from 'rollup';
 import postcss from 'rollup-plugin-postcss';
 import typescript from 'rollup-plugin-typescript2';
 
-import plugins from '../plus.config.js';
+import plugins from '../htmlplus.config.js';
 
 /**
  * @type {import('rollup').RollupOptions}

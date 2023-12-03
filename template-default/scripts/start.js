@@ -1,7 +1,7 @@
 import { vite as htmlplus } from '@htmlplus/element/bundlers/index.js';
 import { createServer } from 'vite';
 
-import plugins from '../plus.config.js';
+import plugins from '../htmlplus.config.js';
 
 createServer({
   server: {
