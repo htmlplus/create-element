@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/htmlplus/create-element/compare/v1.1.0...v1.2.0) (2023-12-03)
+
+
+### Features
+
+* Add support from `part` property in JSX type `SVGAttributes`. ([f50b20e](https://github.com/htmlplus/create-element/commit/f50b20e1aa95ef8e1a17ef3ffa95ef03782be849))
+
 # [1.1.0](https://github.com/htmlplus/create-element/compare/v1.0.0...v1.1.0) (2023-12-03)
 
 
