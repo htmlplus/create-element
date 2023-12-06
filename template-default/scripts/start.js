@@ -1,4 +1,4 @@
-import { vite as htmlplus } from '@htmlplus/element/bundlers/index.js';
+import { htmlplus } from '@htmlplus/element/bundlers/vite.js';
 import { createServer } from 'vite';
 
 import plugins from '../htmlplus.config.js';
