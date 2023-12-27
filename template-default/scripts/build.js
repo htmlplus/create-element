@@ -11,7 +11,7 @@ import plugins from '../htmlplus.config.js';
  * @type {import('rollup').RollupOptions}
  */
 const options = {
-  input: './src/my-element.tsx',
+  input: './src/my-counter.tsx',
   output: [
     {
       format: 'esm',
