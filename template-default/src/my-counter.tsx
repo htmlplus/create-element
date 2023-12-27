@@ -1,8 +1,8 @@
-import { Element, Property } from '@htmlplus/element';
+import { Element, State } from '@htmlplus/element';
 
 @Element()
 export class MyCounter {
-  @Property()
+  @State()
   value: number = 0;
   
   render() {
