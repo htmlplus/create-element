@@ -1,3 +1,15 @@
+## [1.2.1](https://github.com/htmlplus/create-element/compare/v1.2.0...v1.2.1) (2024-02-03)
+
+
+### Bug Fixes
+
+* Property name of the default element ([e6c092e](https://github.com/htmlplus/create-element/commit/e6c092e14af6960b6cd6bb20eafc399d475325fc))
+
+
+### Performance Improvements
+
+* Update the default example ([0feafc9](https://github.com/htmlplus/create-element/commit/0feafc9be167480154143f31c94e586f450e2451))
+
 # [1.2.0](https://github.com/htmlplus/create-element/compare/v1.1.0...v1.2.0) (2023-12-03)
 
 
