@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/htmlplus/create-element/compare/v1.2.2...v1.2.3) (2024-02-11)
+
+
+### Bug Fixes
+
+* Remove favicon link ([a5e95c6](https://github.com/htmlplus/create-element/commit/a5e95c652d49d1809e02a7acc39d753bc5a6b491))
+
 ## [1.2.2](https://github.com/htmlplus/create-element/compare/v1.2.1...v1.2.2) (2024-02-03)
 
 
