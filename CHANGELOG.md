@@ -1,3 +1,21 @@
+# [2.0.0](https://github.com/htmlplus/create-element/compare/v1.2.4...v2.0.0) (2024-07-23)
+
+
+### Bug Fixes
+
+* Leverage HTMLPLUS's built-in JSX typing to streamline your development process and eliminate the necessity for extra definitions in the global.d.ts file. ([11999f3](https://github.com/htmlplus/create-element/commit/11999f32e9cefc567d48fb464934dd33617ce1c9))
+* Update all npm packages. ([0c8bd18](https://github.com/htmlplus/create-element/commit/0c8bd18f451d841b9f8381ed00a8eea7b6254bb5))
+
+
+### Code Refactoring
+
+* In order to improve build and start performance, migrate logics from Rollup to Vite. ([826151c](https://github.com/htmlplus/create-element/commit/826151cd92f1524c0fba060074bc9cf0f6cce536))
+
+
+### BREAKING CHANGES
+
+* The logic was migrated from Rollup to Vite to improve build and startup performance.
+
 ## [1.2.4](https://github.com/htmlplus/create-element/compare/v1.2.3...v1.2.4) (2024-07-05)
 
 
