@@ -1,3 +1,4 @@
 node_modules
-.prettierrc
 template-default/src/MyElement.tsx
+.prettierrc
+CHANGELOG.md
