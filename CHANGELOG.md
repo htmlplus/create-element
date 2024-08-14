@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/htmlplus/create-element/compare/v2.0.0...v2.1.0) (2024-08-14)
+
+
+### Features
+
+* Update the @HTMLPlus/Element to the latest version. ([4f69fa0](https://github.com/htmlplus/create-element/commit/4f69fa0bc0b4d0b851e6c29795a9deb4c8c50c57))
+
 # [2.0.0](https://github.com/htmlplus/create-element/compare/v1.2.4...v2.0.0) (2024-07-23)
 
 
