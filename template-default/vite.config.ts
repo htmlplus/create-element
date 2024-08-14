@@ -1,4 +1,4 @@
-import { htmlplus } from '@htmlplus/element/bundlers/vite.js';
+import { vite as htmlplus } from '@htmlplus/element/bundlers.js';
 import path from 'path';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import { defineConfig } from 'vite';
