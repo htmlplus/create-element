@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/htmlplus/create-element/compare/v2.1.1...v2.1.2) (2025-07-02)
+
+
+### Bug Fixes
+
+* Resolve vulnerabilities by updating npm packages ([527a46c](https://github.com/htmlplus/create-element/commit/527a46c18e572244785f912c94fa9d69b2ebb98c))
+
 ## [2.1.1](https://github.com/htmlplus/create-element/compare/v2.1.0...v2.1.1) (2024-10-30)
 
 
