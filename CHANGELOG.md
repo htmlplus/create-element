@@ -1,3 +1,10 @@
+## [2.1.3](https://github.com/htmlplus/create-element/compare/v2.1.2...v2.1.3) (2025-08-28)
+
+
+### Bug Fixes
+
+* Integrate Biome, Husky, and Lint-Staged to improve code consistency, automation, and overall development workflow ([c59f2aa](https://github.com/htmlplus/create-element/commit/c59f2aa3c3aa0c6091f8391bc585d85aea125551))
+
 ## [2.1.2](https://github.com/htmlplus/create-element/compare/v2.1.1...v2.1.2) (2025-07-02)
 
 
