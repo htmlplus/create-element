@@ -1,49 +1,51 @@
 {
-  "name": "@htmlplus/create-element",
-  "version": "0.0.0",
-  "license": "MIT",
-  "author": "Masood Abdolian <m.abdolian@gmail.com>",
-  "description": "This package includes the global command for @htmlplus/element.",
-  "type": "module",
-  "main": "index.js",
-  "types": "",
-  "scripts": {
-    "build": "",
-    "format": "prettier --write ."
-  },
-  "bin": {
-    "create-element": "index.js"
-  },
-  "files": [
-    "index.js",
-    "template-default"
-  ],
-  "publishConfig": {},
-  "engines": {
-    "node": ">= 20.10.0"
-  },
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/htmlplus/create-element.git"
-  },
-  "bugs": {
-    "url": "https://github.com/htmlplus/create-element/issues"
-  },
-  "homepage": "https://github.com/htmlplus/create-element#readme",
-  "dependencies": {
-    "enquirer": "^2.4.1",
-    "fs-extra": "^11.2.0"
-  },
-  "devDependencies": {
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^13.0.0",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^11.0.0",
-    "@semantic-release/npm": "^12.0.1",
-    "@semantic-release/release-notes-generator": "^14.0.1",
-    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
-    "prettier": "^3.3.3",
-    "semantic-release": "^24.2.0"
-  }
+	"name": "@htmlplus/create-element",
+	"version": "0.0.0",
+	"license": "MIT",
+	"author": "Masood Abdolian <m.abdolian@gmail.com>",
+	"description": "This package includes the global command for @htmlplus/element.",
+	"type": "module",
+	"main": "index.js",
+	"types": "",
+	"scripts": {
+		"build": "",
+		"lint": "biome check --write",
+		"prepare": "husky"
+	},
+	"bin": {
+		"create-element": "index.js"
+	},
+	"files": [
+		"index.js",
+		"template-default"
+	],
+	"publishConfig": {},
+	"engines": {
+		"node": ">= 20.10.0"
+	},
+	"keywords": [],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/htmlplus/create-element.git"
+	},
+	"bugs": {
+		"url": "https://github.com/htmlplus/create-element/issues"
+	},
+	"homepage": "https://github.com/htmlplus/create-element#readme",
+	"dependencies": {
+		"enquirer": "^2.4.1",
+		"fs-extra": "^11.3.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.2",
+		"@semantic-release/changelog": "^6.0.3",
+		"@semantic-release/commit-analyzer": "^13.0.1",
+		"@semantic-release/git": "^10.0.1",
+		"@semantic-release/github": "^11.0.4",
+		"@semantic-release/npm": "^12.0.2",
+		"@semantic-release/release-notes-generator": "^14.0.3",
+		"husky": "^9.1.7",
+		"lint-staged": "^16.1.5",
+		"semantic-release": "^24.2.7"
+	}
 }
