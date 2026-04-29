@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/htmlplus/create-element/compare/v2.1.3...v2.2.0) (2026-04-29)
+
+
+### Features
+
+* Change JSX transform from `preserve` to `react-jsx` in `tsconfig` after integrating `Preact` ([7ba83db](https://github.com/htmlplus/create-element/commit/7ba83dbc44e15c8b926d6e0f9c9db7b28d99f5a1))
+
 ## [2.1.3](https://github.com/htmlplus/create-element/compare/v2.1.2...v2.1.3) (2025-08-28)
 
 
