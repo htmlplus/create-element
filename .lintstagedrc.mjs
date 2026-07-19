@@ -2,6 +2,5 @@ export default {
 	'*.{js,jsx,ts,tsx,json,css,html}': () => [
 		'biome format --write',
 		'biome check --error-on-warnings'
-	],
-	'package.json': () => 'npx --yes sort-package-json'
+	]
 };
