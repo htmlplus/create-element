@@ -5,14 +5,12 @@ import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 
-import plugins from './htmlplus.config.js';
-
 export default defineConfig({
 	server: {
 		open: true
 	},
 	plugins: [
-		htmlplus(plugins),
+		htmlplus(),
 		peerDepsExternal(),
 		dts({
 			outDir: 'dist/types',
