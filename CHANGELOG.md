@@ -1,3 +1,10 @@
+## [2.2.3](https://github.com/htmlplus/create-element/compare/v2.2.2...v2.2.3) (2026-08-21)
+
+
+### Bug Fixes
+
+* Update usage of plugin ([814c69a](https://github.com/htmlplus/create-element/commit/814c69a2772e9d3d6899195d4b7e18fe97b4d3c7))
+
 ## [2.2.2](https://github.com/htmlplus/create-element/compare/v2.2.1...v2.2.2) (2026-07-19)
 
 
