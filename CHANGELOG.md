@@ -1,3 +1,10 @@
+## [2.2.4](https://github.com/htmlplus/create-element/compare/v2.2.3...v2.2.4) (2026-09-03)
+
+
+### Bug Fixes
+
+* Remove dts transform ([adc6109](https://github.com/htmlplus/create-element/commit/adc61095a350a6dd882510f87e2320b40ebf7f08))
+
 ## [2.2.3](https://github.com/htmlplus/create-element/compare/v2.2.2...v2.2.3) (2026-08-21)
 
 
