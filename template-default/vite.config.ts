@@ -7,7 +7,30 @@ export default defineConfig({
 	server: {
 		open: true
 	},
-	plugins: [htmlplus(), peerDepsExternal(), dts({ outDir: 'dist/types' })],
+	plugins: [
+		htmlplus({
+			style: {
+				// enable: true
+			},
+			assets: {
+				// enable: true
+			},
+			types: {
+				// enable: true
+			},
+			document: {
+				// enable: true
+			},
+			visualStudioCode: {
+				// enable: true
+			},
+			webTypes: {
+				// enable: true
+			}
+		}),
+		peerDepsExternal(),
+		dts({ outDir: 'dist/types' })
+	],
 	build: {
 		emptyOutDir: false,
 		minify: false,
