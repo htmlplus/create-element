@@ -1,3 +1,10 @@
+## [2.2.6](https://github.com/htmlplus/create-element/compare/v2.2.4...v2.2.6) (2026-09-04)
+
+
+### Bug Fixes
+
+* Migrate release automation from `semantic-release` to `release-please` ([e0e68ef](https://github.com/htmlplus/create-element/commit/e0e68ef1499069ca4ac1d929bc87403a51581ee4))
+
 ## [2.2.5](https://github.com/htmlplus/create-element/compare/v2.2.4...v2.2.5) (2026-09-04)
 
 
