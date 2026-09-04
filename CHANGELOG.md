@@ -1,3 +1,10 @@
+## [2.2.5](https://github.com/htmlplus/create-element/compare/v2.2.4...v2.2.5) (2026-09-04)
+
+
+### Bug Fixes
+
+* Update Vite config file ([79e9525](https://github.com/htmlplus/create-element/commit/79e95257827b55a1179dae5120d6c5152de43c5d))
+
 ## [2.2.4](https://github.com/htmlplus/create-element/compare/v2.2.3...v2.2.4) (2026-09-03)
 
 
