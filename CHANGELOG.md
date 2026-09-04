@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.7](https://github.com/htmlplus/create-element/compare/v2.2.6...v2.2.7) (2026-09-04)
+
+
+### Bug Fixes
+
+* Update README.md file ([b9d8763](https://github.com/htmlplus/create-element/commit/b9d876383e925d5b2a57d9d525c38d4a54668865))
+
 ## [2.2.6](https://github.com/htmlplus/create-element/compare/v2.2.5...v2.2.6) (2026-09-04)
 
 
