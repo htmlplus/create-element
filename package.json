@@ -1,6 +1,6 @@
 {
 	"name": "@htmlplus/create-element",
-	"version": "2.2.7",
+	"version": "2.2.8",
 	"description": "This package includes the global command for @htmlplus/element.",
 	"keywords": [],
 	"homepage": "https://github.com/htmlplus/create-element#readme",
