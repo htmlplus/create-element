@@ -25,7 +25,7 @@ This command will launch the development server, allowing you to see your change
 To create a minified version of the package for production, execute:
 
 ```sh
-npm run dev
+npm run build
 ```
 
 This will optimize your package for deployment, ensuring better performance.
