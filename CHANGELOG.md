@@ -1,54 +1,16 @@
+## [2.2.6](https://github.com/htmlplus/create-element/compare/v2.2.4...v2.2.6) (2026-09-04)
+
+
+### Bug Fixes
+
+* Migrate release automation from `semantic-release` to `release-please` ([e0e68ef](https://github.com/htmlplus/create-element/commit/e0e68ef1499069ca4ac1d929bc87403a51581ee4))
+
 ## [2.2.5](https://github.com/htmlplus/create-element/compare/v2.2.4...v2.2.5) (2026-09-04)
 
 
 ### Bug Fixes
 
 * Update Vite config file ([79e9525](https://github.com/htmlplus/create-element/commit/79e95257827b55a1179dae5120d6c5152de43c5d))
-
-## [3.0.0](https://github.com/htmlplus/create-element/compare/create-element-v2.2.5...create-element-v3.0.0) (2026-09-04)
-
-
-### ⚠ BREAKING CHANGES
-
-* The logic was migrated from Rollup to Vite to improve build and startup performance.
-
-### Features
-
-* Add new release workflow based on 'semantic-release' ([36951fc](https://github.com/htmlplus/create-element/commit/36951fcd6a17fdd69ac7e04b02c76d4d4bffec4b))
-* Add support from `part` property in JSX type `SVGAttributes`. ([f50b20e](https://github.com/htmlplus/create-element/commit/f50b20e1aa95ef8e1a17ef3ffa95ef03782be849))
-* Change JSX transform from `preserve` to `react-jsx` in `tsconfig` after integrating `Preact` ([7ba83db](https://github.com/htmlplus/create-element/commit/7ba83dbc44e15c8b926d6e0f9c9db7b28d99f5a1))
-* rename the `plus.config.js` to the `htmlplus.config.js` ([fec91cc](https://github.com/htmlplus/create-element/commit/fec91cc65451f9ac98a07974bbfd659332c5792e))
-* Update the @HTMLPlus/Element to the latest version. ([4f69fa0](https://github.com/htmlplus/create-element/commit/4f69fa0bc0b4d0b851e6c29795a9deb4c8c50c57))
-* Update tokens ([5ba3074](https://github.com/htmlplus/create-element/commit/5ba3074d5bc8b90f4f4f7ac7e6d4d197a1afabe1))
-
-
-### Bug Fixes
-
-* Fix the release workflow ([4ac23c2](https://github.com/htmlplus/create-element/commit/4ac23c2ea06bddbf1f2cf305220c3d1663dbba9f))
-* Integrate Biome, Husky, and Lint-Staged to improve code consistency, automation, and overall development workflow ([c59f2aa](https://github.com/htmlplus/create-element/commit/c59f2aa3c3aa0c6091f8391bc585d85aea125551))
-* Leverage HTMLPLUS's built-in JSX typing to streamline your development process and eliminate the necessity for extra definitions in the global.d.ts file. ([11999f3](https://github.com/htmlplus/create-element/commit/11999f32e9cefc567d48fb464934dd33617ce1c9))
-* Property name of the default element ([e6c092e](https://github.com/htmlplus/create-element/commit/e6c092e14af6960b6cd6bb20eafc399d475325fc))
-* Remove dts transform ([adc6109](https://github.com/htmlplus/create-element/commit/adc61095a350a6dd882510f87e2320b40ebf7f08))
-* Remove favicon link ([a5e95c6](https://github.com/htmlplus/create-element/commit/a5e95c652d49d1809e02a7acc39d753bc5a6b491))
-* Resolve vulnerabilities by updating npm packages ([527a46c](https://github.com/htmlplus/create-element/commit/527a46c18e572244785f912c94fa9d69b2ebb98c))
-* Update all npm packages. ([0c8bd18](https://github.com/htmlplus/create-element/commit/0c8bd18f451d841b9f8381ed00a8eea7b6254bb5))
-* Update options based on latest changes ([28d8c6b](https://github.com/htmlplus/create-element/commit/28d8c6b67672a15db88ad85c08ad5f407c6928d4))
-* Update packages in `package.json` ([f3804ae](https://github.com/htmlplus/create-element/commit/f3804ae83f3a722dfe8f1d3e99ea465786d22087))
-* Update the npm packages. ([49ac0ae](https://github.com/htmlplus/create-element/commit/49ac0aef0709e582a49e994b2f7740ec0395dfaa))
-* Update usage of plugin ([814c69a](https://github.com/htmlplus/create-element/commit/814c69a2772e9d3d6899195d4b7e18fe97b4d3c7))
-* Update Vite config file ([79e9525](https://github.com/htmlplus/create-element/commit/79e95257827b55a1179dae5120d6c5152de43c5d))
-* Updated typings ([bceacac](https://github.com/htmlplus/create-element/commit/bceacac3d6bfd7d403d4ea0097bfef74f2261544))
-* Upgrade all npm packages to their latest versions ([6edd3e9](https://github.com/htmlplus/create-element/commit/6edd3e9e7ea835be1f4b8d112785c097f143c58f))
-
-
-### Performance Improvements
-
-* Update the default example ([0feafc9](https://github.com/htmlplus/create-element/commit/0feafc9be167480154143f31c94e586f450e2451))
-
-
-### Code Refactoring
-
-* In order to improve build and start performance, migrate logics from Rollup to Vite. ([826151c](https://github.com/htmlplus/create-element/commit/826151cd92f1524c0fba060074bc9cf0f6cce536))
 
 ## [2.2.4](https://github.com/htmlplus/create-element/compare/v2.2.3...v2.2.4) (2026-09-03)
 
